@@ -1,0 +1,110 @@
+.video_loader {
+    border: 1px solid grey;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: white;
+    margin-right: 10px;
+}
+.video_data {
+    display: none;
+}
+.cta-tab,
+.video-tab {
+    display: none;
+    padding: 5px 20px 25px;
+    background: white;
+    margin-top: 10px;
+    border-radius: 10px;
+    &.active {
+        display: block;
+    }
+    #new_tab_link {
+        margin-top: 10px;
+    }
+    small {
+        display: block;
+    }
+    .premium {
+        display: block;
+        width: 100%;
+    }
+}
+.cta-tab {
+    padding: 0px;
+}
+.cta-settings {
+    padding: 5px 20px 25px;
+    background: white;
+    margin-top: 10px;
+    border-radius: 10px;
+    &.active {
+        display: block;
+    }
+    #new_tab_link {
+        margin-top: 10px;
+    }
+    small {
+        display: block;
+    }
+    .premium {
+        display: block;
+        width: 100%;
+    }
+}
+#video_advanced {
+    padding-bottom: 10px;
+    .video-settings {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        background: #f7f3f3;
+        padding: 10px 15px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        .remove-setting {
+            max-width: 15px;
+            cursor: pointer;
+        }
+    }
+    #add_video_settings {
+        display: block;
+        margin: 15px auto;
+        width: 30px;
+        cursor: pointer;
+    }
+}
+.video-settings {
+    .video-source,
+    .video-selector {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .source-id {
+        display: none;
+    }
+}
+
+.warning {
+    padding: 10px;
+    border-left: 3px solid #ff9900;
+    margin: 5px 0;
+}
+
+#video_on_all_pages {
+    padding: 20px;
+}
+
+.trial {
+    background: green;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    &:hover {
+        color: white !important;
+    }
+}

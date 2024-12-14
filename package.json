@@ -1,0 +1,29 @@
+{
+  "name": "generic-gb-block",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/components": "^23.5.0",
+    "@wordpress/scripts": "25.1.0",
+    "mini-css-extract-plugin": "^2.9.0"
+  },
+  "scripts": {
+    "build": "wp-scripts build",
+    "check-engines": "wp-scripts check-engines",
+    "check-licenses": "wp-scripts check-licenses",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "lint:pkg-json": "wp-scripts lint-pkg-json",
+    "start": "wp-scripts start",
+    "test:e2e": "wp-scripts test-e2e",
+    "test:unit": "wp-scripts test-unit-js"
+  },
+  "dependencies": {
+    "@wordpress/hooks": "^2.12.2",
+    "plyr": "^3.7.8",
+    "webpack": "5.75.0",
+    "webpack-cli": "4.10.0"
+  }
+}
