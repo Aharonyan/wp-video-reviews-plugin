@@ -4,7 +4,7 @@ Tags: video reviews, video popup, video lightbox, youtube lightbox, lightbox
 Requires at least: 4.0
 Tested up to: 6.7.1
 Requires PHP: 5.6
-Stable tag: 1.5.3
+Stable tag: 1.5.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -83,6 +83,9 @@ Yes. You can choose between horizontal and vertical layouts to best suit your we
 
 == Changelog ==
 
+= 1.5.4 =
+* Bug fixes
+
 = 1.5.3 =
 * Fixed critical Safari/iOS compatibility issue ensuring proper widget display
 
@@ -138,6 +141,9 @@ Yes. You can choose between horizontal and vertical layouts to best suit your we
 Plugin first version
 
 == Upgrade Notice ==
+
+= 1.5.4 =
+Important Update: Fixed Safari/iOS Compatibility Issue
 
 = 1.5.3 =
 Important Update: Fixed Safari/iOS Compatibility Issue
