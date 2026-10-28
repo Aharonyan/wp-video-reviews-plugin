@@ -23,7 +23,7 @@
   "dependencies": {
     "@wordpress/hooks": "^2.12.2",
     "plyr": "^3.7.8",
-    "webpack": "5.75.0",
+    "webpack": "5.104.1",
     "webpack-cli": "4.10.0"
   }
 }
